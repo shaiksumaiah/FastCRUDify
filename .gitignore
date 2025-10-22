@@ -1,32 +1,25 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Virtual environments
-.venv/
+*.pyo
+*.pyd
+*.env
+*.venv
 env/
 venv/
 ENV/
-
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-
-# PyInstaller
-*.manifest
-*.spec
+.venv/
 
 # VSCode
 .vscode/
 
-# Logs
-*.log
-
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
+
